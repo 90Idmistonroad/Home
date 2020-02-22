@@ -3,6 +3,8 @@ import ErrorBoundary from 'react-error-boundary';
 import './App.css';
 import HomePage from './pages/Home'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 export default class App extends React.Component {
   constructor () {
     super()
